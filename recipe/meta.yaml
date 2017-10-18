@@ -39,7 +39,7 @@ about:
   #
   # https://github.com/hackebrot/pytest-cookies/pull/10
   #
-  #license_file: LICENSE
+  license_file: LICENSE
   summary: A Pytest plugin for your Cookiecutter templates
 
 extra:

@@ -1,6 +1,6 @@
 {% set name = "pytest-cookies" %}
-{% set version = "0.2.0" %}
-{% set sha256 = "8822dcc1095edcd45a45db727fee647c7abbee111691380dd7e82c462c7b90f4" %}
+{% set version = "0.3.0" %}
+{% set sha256 = "7054b5abd87704c3769b46deb65c332fadba80905d4103b0b1e0b4fe8a9a852a" %}
 
 package:
   name: {{ name|lower }}
@@ -34,12 +34,7 @@ about:
   home: https://github.com/hackebrot/pytest-cookies
   license: MIT
   license_family: MIT
-  # Not included in the sdist yet.
-  # Please see the linked PR.
-  #
-  # https://github.com/hackebrot/pytest-cookies/pull/10
-  #
-  #license_file: LICENSE
+  license_file: LICENSE
   summary: A Pytest plugin for your Cookiecutter templates
 
 extra:

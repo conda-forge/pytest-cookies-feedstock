@@ -34,11 +34,6 @@ about:
   home: https://github.com/hackebrot/pytest-cookies
   license: MIT
   license_family: MIT
-  # Not included in the sdist yet.
-  # Please see the linked PR.
-  #
-  # https://github.com/hackebrot/pytest-cookies/pull/10
-  #
   license_file: LICENSE
   summary: A Pytest plugin for your Cookiecutter templates
 

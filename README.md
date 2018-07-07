@@ -14,14 +14,15 @@ Summary: A Pytest plugin for your Cookiecutter templates
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pytest-cookies-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pytest-cookies-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pytest-cookies-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pytest-cookies-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pytest-cookies-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pytest-cookies-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pytest-cookies-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pytest-cookies-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pytest-cookies/badges/version.svg)](https://anaconda.org/conda-forge/pytest-cookies)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pytest-cookies/badges/downloads.svg)](https://anaconda.org/conda-forge/pytest-cookies)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pytest--cookies-green.svg)](https://anaconda.org/conda-forge/pytest-cookies) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pytest-cookies.svg)](https://anaconda.org/conda-forge/pytest-cookies) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pytest-cookies.svg)](https://anaconda.org/conda-forge/pytest-cookies) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pytest-cookies.svg)](https://anaconda.org/conda-forge/pytest-cookies) |
 
 Installing pytest-cookies
 =========================

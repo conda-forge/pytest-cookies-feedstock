@@ -1,6 +1,6 @@
 {% set name = "pytest-cookies" %}
-{% set version = "0.3.0" %}
-{% set sha256 = "7054b5abd87704c3769b46deb65c332fadba80905d4103b0b1e0b4fe8a9a852a" %}
+{% set version = "0.4.0" %}
+{% set sha256 = "82b0b7d4a7271dae9c1fb07a0fd44d8ccb3755267665d2d5669956e2af547a1e" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1000
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
   preserve_egg_dir: true
 

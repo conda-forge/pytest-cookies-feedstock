@@ -1,6 +1,6 @@
 {% set name = "pytest-cookies" %}
-{% set version = "0.3.0" %}
-{% set sha256 = "7054b5abd87704c3769b46deb65c332fadba80905d4103b0b1e0b4fe8a9a852a" %}
+{% set version = "0.4.0" %}
+{% set sha256 = "82b0b7d4a7271dae9c1fb07a0fd44d8ccb3755267665d2d5669956e2af547a1e" %}
 
 package:
   name: {{ name|lower }}
@@ -12,19 +12,21 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1000
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  noarch: python
+  number: 0
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
   preserve_egg_dir: true
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
 
   run:
+    - arrow <0.14.0
     - python
-    - pytest >=2.8.1
-    - cookiecutter >=1.4.0
+    - pytest >=3.3.0,<5.0.0
+    - cookiecutter >=1.4.0,<=1.6.0
 
 test:
   imports:
@@ -40,3 +42,4 @@ about:
 extra:
   recipe-maintainers:
     - jakirkham
+    - ccordoba12

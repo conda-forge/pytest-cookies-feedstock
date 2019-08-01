@@ -18,7 +18,7 @@ build:
   preserve_egg_dir: true
 
 requirements:
-  build:
+  host:
     - python
     - pip
 

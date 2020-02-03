@@ -1,6 +1,6 @@
 {% set name = "pytest-cookies" %}
-{% set version = "0.4.0" %}
-{% set sha256 = "82b0b7d4a7271dae9c1fb07a0fd44d8ccb3755267665d2d5669956e2af547a1e" %}
+{% set version = "0.5.0" %}
+{% set sha256 = "fcf917681153efcd4588baa19341d42f9b93744387defbfd15ffe455f6bdb7d7" %}
 
 package:
   name: {{ name|lower }}
@@ -25,7 +25,7 @@ requirements:
   run:
     - arrow <0.14.0
     - python
-    - pytest >=3.3.0,<5.0.0
+    - pytest >=3.3.0,<6.0.0
     - cookiecutter >=1.4.0,<=1.6.0
 
 test:

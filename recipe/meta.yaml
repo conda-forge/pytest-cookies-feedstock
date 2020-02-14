@@ -1,6 +1,6 @@
 {% set name = "pytest-cookies" %}
-{% set version = "0.5.0" %}
-{% set sha256 = "fcf917681153efcd4588baa19341d42f9b93744387defbfd15ffe455f6bdb7d7" %}
+{% set version = "0.5.1" %}
+{% set sha256 = "b33f7f51772444b9b25991c4eeaea74a69dc9a6e08b09596b9574548a8812f34" %}
 
 package:
   name: {{ name|lower }}

@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
   preserve_egg_dir: true
 
@@ -26,7 +26,7 @@ requirements:
     - arrow <0.14.0
     - python
     - pytest >=3.3.0,<6.0.0
-    - cookiecutter >=1.4.0,<=1.6.0
+    - cookiecutter >=1.4.0,<1.8.0
 
 test:
   imports:

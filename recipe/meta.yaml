@@ -1,6 +1,6 @@
 {% set name = "pytest-cookies" %}
-{% set version = "0.5.1" %}
-{% set sha256 = "b33f7f51772444b9b25991c4eeaea74a69dc9a6e08b09596b9574548a8812f34" %}
+{% set version = "0.6.1" %}
+{% set sha256 = "94c41ad914d420b57bc31d58ab2c0b103322c11d07d13b8d245c85fa9b069714" %}
 
 package:
   name: {{ name|lower }}
@@ -13,8 +13,8 @@ source:
 
 build:
   noarch: python
-  number: 1
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
   preserve_egg_dir: true
 
 requirements:

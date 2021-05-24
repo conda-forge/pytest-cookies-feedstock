@@ -12,21 +12,20 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  noarch: python
+  noarch: python >=3.6
   number: 0
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
   preserve_egg_dir: true
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
 
   run:
-    - arrow <0.14.0
-    - python
-    - pytest >=3.3.0,<6.0.0
-    - cookiecutter >=1.4.0,<1.8.0
+    - cookiecutter >=1.4.0
+    - pytest >=3.3.0
+    - python >=3.6
 
 test:
   imports:
